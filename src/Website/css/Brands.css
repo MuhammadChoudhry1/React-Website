@@ -1,0 +1,64 @@
+.page {
+    /*adding max withd to the page becuase it made the page wider when i added the brands*/
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -.36px;
+    text-transform: uppercase;
+    /*transforms everything into uppercase*/
+}
+
+.brand {
+    margin: 0;
+    padding: 0;
+}
+
+/*codes both classes*/
+.largeShirts,
+.Shirts span {
+    color: #262261;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -.02em;
+    text-transform: uppercase;
+}
+
+.card-b {
+    text-align: center !important;
+    /*makes the text center of the page*/
+    display: flex !important;
+    flex-direction: column !important;
+    /*alligns the flex elements vertically from top to bottom*/
+    align-items: center !important;
+}
+
+.image-image {
+    width: 250px;
+}
+
+.BrandList {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card-image-container {
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

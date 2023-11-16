@@ -1,0 +1,171 @@
+/*banner nav*/
+.home-banner-message {
+    padding: 10px 0;
+    background-color: rgb(49, 2, 49);
+    overflow: hidden;
+}
+
+.home-banner-message {
+    padding: 15px 0;
+}
+
+.home-banner-message.home-home {
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+}
+
+.home-banner-message .container {
+    padding: 0;
+}
+
+.home-banner-message__header .container {
+    max-width: 1200px;
+}
+
+.home-banner-message-list {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.home-banner-message-list .home-message {
+    padding: 20px;
+}
+
+.home-banner-message-list .home-message {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.home-banner-message-list .home-message span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -.36px;
+    text-transform: uppercase;
+    width: 100px;
+    transition: color .3s;
+}
+
+.blue-box {
+    margin: 30px;
+    background-color: #CBC3E3;
+    border-radius: 50px;
+    padding-bottom: 20px;
+}
+
+.input-box {
+    display: block;
+    padding-left: 60px;
+    padding-top: 60px;
+    margin-bottom: 55px;
+}
+
+.form-title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #262261;
+    cursor: pointer;
+    display: block;
+}
+
+.form-input {
+    border-color: #dee3ee;
+    border-radius: 30px;
+    color: #545562;
+    display: block;
+    font-size: 1rem;
+    height: auto;
+    padding: 16px 30px;
+}
+
+.form-input {
+    appearance: none;
+    background-color: #fff;
+    border-color: #dee3ee;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    color: #545562;
+    display: block;
+    font-family: inherit;
+    font-size: 1rem;
+    height: 3rem;
+    margin: 0;
+    padding: 0.75rem 1rem;
+    transition: border-color .1s ease-out;
+    width: 100%;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-label {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    padding-left: 50px;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+
+.input-box .options input.form-radio,
+.input-box .options label.form-label {
+    padding: 5px;
+}
+
+.input-box .shirts-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.form-radio-wrap {
+    margin-bottom: 35px;
+    padding: 0 10px;
+}
+
+.form-radio-label {
+    justify-content: center;
+    padding: 35px 35px 40px;
+    border: 1px solid #d1d6e0;
+    border-radius: 30px;
+    background-color: #fff;
+    text-align: center;
+    height: 100%;
+    cursor: pointer;
+    transition: border-color .15s;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.form-radio-label img {
+    max-height: 270px;
+    margin-bottom: 15px;
+}
+
+.BYO-page {
+    padding: 60px 60px 80px;
+}

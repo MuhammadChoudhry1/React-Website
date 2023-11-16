@@ -1,0 +1,20 @@
+.card-img-inner-container img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.brand .card-img-container {
+    border: 1px solid #CBC3E3;
+    align-items: center;
+    margin: 30px;
+    border-radius: 30px;
+    height: 200px;
+    background-color: white;
+}
+
+.brand .card-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

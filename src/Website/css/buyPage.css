@@ -1,0 +1,58 @@
+/*banner nav*/
+.home-banner-message {
+    padding: 10px 0;
+    background-color: rgb(49, 2, 49);
+    overflow: hidden;
+}
+
+.home-banner-message {
+    padding: 15px 0;
+}
+
+.home-banner-message.home-home {
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+}
+
+.home-banner-message .container {
+    padding: 0;
+}
+
+.home-banner-message__header .container {
+    max-width: 1200px;
+}
+
+.home-banner-message-list {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.home-banner-message-list .home-message {
+    padding: 20px;
+}
+
+.home-banner-message-list .home-message {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.home-banner-message-list .home-message span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -.36px;
+    text-transform: uppercase;
+    width: 100px;
+    transition: color .3s;
+}

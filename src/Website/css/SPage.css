@@ -1,0 +1,371 @@
+/*banner nav*/
+.home-banner-message {
+    padding: 10px 0;
+    background-color: rgb(49, 2, 49);
+    overflow: hidden;
+}
+
+.home-banner-message {
+    padding: 15px 0;
+}
+
+.home-banner-message.home-home {
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+}
+
+.home-banner-message .container {
+    padding: 0;
+}
+
+.home-banner-message__header .container {
+    max-width: 1200px;
+}
+
+.home-banner-message-list {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.home-banner-message-list .home-message {
+    padding: 20px;
+}
+
+.home-banner-message-list .home-message {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.home-banner-message-list .home-message span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -.36px;
+    text-transform: uppercase;
+    width: 100px;
+    transition: color .3s;
+}
+
+.Page-heading {
+    color: #262261;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1.8px;
+    margin: 0;
+}
+
+.Page-Heading-Container {
+    border-bottom: 1px solid #d1d6e0;
+    padding: 35px 0;
+}
+
+.Page-Heading-Container .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Page-Heading-Message {
+    display: flex;
+    align-items: center;
+}
+
+.Page-Heading-Message span {
+    margin-right: 25px;
+}
+
+ol.Small-nav {
+    padding: 55px 0 65px;
+    margin: 0;
+}
+
+.small-nav .Small-nav {
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.sidebarBlock-header {
+    font-size: 1.66667rem;
+    line-height: 32px;
+    margin-top: 0;
+    text-transform: inherit;
+    margin-bottom: 25px
+}
+
+.page-sidebar {
+    width: 320px;
+    padding: 45px 40px 30px;
+    position: relative;
+    border-radius: 30px;
+    background-color: #dddbe2;
+}
+
+.navList-action {
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    padding: 0;
+    color: #262261;
+}
+
+.fiitSize {
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+.fiitSize+.sidebarBlock-header {
+    margin-bottom: 2rem;
+}
+
+.fiitsize-navlist {
+    margin-top: 2rem;
+}
+
+.titleWrap {
+    margin-bottom: 2rem;
+}
+
+.sizes-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    column-gap: 15px;
+    margin-bottom: 15px;
+}
+
+.size-item {
+    margin-bottom: 15px;
+}
+
+#People-Sizes .size-listn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.fiitSize .size-item {
+    color: #2b2b35;
+    font-weight: 300;
+    border: 1px solid #d1d6e0;
+    border-radius: 30px;
+    padding: 15px 24px;
+    background-color: #fff;
+    width: 75px;
+    text-decoration: none;
+}
+
+.Brand {
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+.Brand+.sidebarBlock-header {
+    margin-bottom: 2rem;
+}
+
+.Brand .size-listn {
+    color: #2b2b35;
+    font-weight: 300;
+    border: 1px solid #d1d6e0;
+    border-radius: 30px;
+    padding: 15px 24px;
+    background-color: #fff;
+    transition: border .3s, padding .3s;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+#brand .size-listn a {
+    color: #2b2b35;
+    text-decoration: none;
+}
+
+.Page-Heading-Message svg {
+    padding-right: 15px;
+}
+
+.brand {
+    padding: 0 20px;
+}
+
+.card {
+    margin-bottom: 90px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -.36px;
+    text-transform: uppercase;
+}
+
+.link {
+    color: #333;
+    display: block;
+    text-decoration: none;
+}
+
+.page-colum {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.page-content {
+    padding-left: 30px;
+}
+
+.product-grid {
+    list-style: none;
+    margin: 0 -0.75rem;
+    max-width: none;
+    width: auto;
+    font-size: 0;
+    margin-bottom: 1.5rem;
+}
+
+.product {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: 50%;
+    float: none;
+    display: inline-block;
+    font-size: 1rem;
+    vertical-align: top;
+}
+
+.catergory-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-image {
+    width: 200px;
+}
+
+.image-image,
+.Round {
+    border-radius: 20px;
+}
+
+.card-figure {
+    padding-bottom: 20px;
+}
+
+.SKU {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -.36px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.price {
+    color: #262261;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -.36px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.card-Spag {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand-info-s {
+    text-align: center;
+}
+
+.button-icon-s {
+    background-color: #93ca39;
+    border-color: #93ca39;
+    /*gives the border a green colour*/
+    color: #fff;
+}
+
+.small-button-s {
+    font-size: 14px;
+    letter-spacing: -.36px;
+    border-radius: 22px;
+    /*turns the borders radius into 22 degres*/
+    padding: 11px 18px;
+}
+
+.Boot-s {
+    text-align: center;
+}
+
+.BrandList {
+    margin-top: 50px;
+}
+
+.selector {
+    padding: 55px 0 65px;
+    display: flex;
+    justify-content: flex-end;
+    /*Puts it at the end*/
+    position: relative;
+    /*this allows me to postion it where i want*/
+    top: 20px;
+    right: 40px;
+}
+
+.border1 {
+    position: relative;
+    border: 1px solid #d1d6e0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.lable {
+    color: #545562;
+
+}
+
+.form-select {
+    border: none;
+    margin-left: 3px;
+}
+
+.form-select:focus {
+    border: none;
+    background: none;
+}

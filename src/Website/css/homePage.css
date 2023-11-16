@@ -1,0 +1,245 @@
+/*banner nav*/
+.home-banner-message {
+    padding: 10px 0;
+    background-color: rgb(49, 2, 49);
+    overflow: hidden;
+}
+
+.home-banner-message {
+    padding: 15px 0;
+}
+
+.home-banner-message.home-home {
+    border-top-right-radius: 70px !important;
+    border-top-left-radius: 70px !important;
+}
+
+.home-banner-message .container {
+    padding: 0;
+}
+
+.home-banner-message__header .container {
+    max-width: 1200px;
+}
+
+.home-banner-message-list {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.home-banner-message-list {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.home-banner-message-list .home-message {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.home-banner-message-list .home-message span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -.36px;
+    text-transform: uppercase;
+    width: 100px;
+    transition: color .3s;
+}
+
+.home-heroCarousel {
+    height: 720px;
+    margin-bottom: 75px;
+}
+
+.home-container {
+    width: 100%;
+    height: auto;
+    background-color: #CBC3E3;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.inner-box {
+    width: auto;
+    height: 300px;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    padding: 65px 20px 50px;
+}
+
+.box {
+    flex: 0 0 25%;
+}
+
+.message-container {
+    max-width: 850px;
+    margin: 0 auto 65px;
+    text-align: center;
+}
+
+.message-container h4 {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -.03em;
+    margin-bottom: 50px;
+}
+
+.message-container p {
+    color: #82809d;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.inner-box h4 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -.03em;
+    margin-bottom: 20px;
+}
+
+.imageWrap {
+    position: relative;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    background-color: #262261;
+    margin: 0 auto 45px;
+}
+
+.imageWrap img {
+    max-height: 56px;
+}
+
+
+.message-home {
+    background-color: #CBC3E3;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.home-banner-container {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.title h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -.03em;
+}
+
+.shirtsCategory {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 100px;
+    /* Increase padding to add more space */
+    box-sizing: border-box;
+}
+
+.smallShirts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+}
+
+.Shirts {
+    padding: 50px;
+    /* Increase padding for each small shirt */
+    background-color: #fff;
+    border: 2px solid #e2ecff;
+    /* Increase border thickness */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Shirts img {
+    max-height: 240px;
+    /* Increase image height */
+    display: block;
+    margin: 0 auto;
+}
+
+.largeShirts {
+    padding: 50px;
+    /* Increase padding for the large shirt */
+    background-color: #fff;
+    border: 2px solid #e2ecff;
+    /* Increase border thickness */
+    text-align: center;
+    border-radius: 0 100px 100px 0;
+    /* Increase border radius */
+    margin-left: 0;
+    height: 732px;
+    /* Set height to match smallShirts container */
+    box-sizing: border-box;
+}
+
+.largeShirts img {
+    height: 100%;
+    /* Set the height to 100% to match the combined height */
+    display: block;
+    margin: 0 auto;
+}
+
+.small--shirts {
+    padding: 150px 30px 90px;
+    /* Increase padding */
+}
+
+/* Add borders back */
+.Shirts {
+    border: 2px solid #e2ecff;
+    /* Increase border thickness */
+}
+
+.largeShirts {
+    border: 2px solid #e2ecff;
+    /* Increase border thickness */
+}
+
+.Shirts:first-of-type {
+    border-top-left-radius: 100px;
+}
+
+.Shirts:nth-of-type(3) {
+    border-bottom-left-radius: 100px;
+}
+
+.best-seller-block {
+    margin-bottom: 140px;
+    margin: 0 auto 80px;
+    padding: 0 25px;
+    max-width: 1430px;
+}

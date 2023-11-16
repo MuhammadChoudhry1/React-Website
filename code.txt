@@ -1,0 +1,52 @@
+.shirtsCategory {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.smallShirts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0; /* No gap between small images */
+}
+
+.Shirts {
+  padding: 0; /* No padding for small images */
+  background-color: #fff;
+  border: 1px solid #e2ecff;
+  text-align: center;
+}
+
+.Shirts img {
+  max-height: 180px;
+  display: block;
+  margin: 0 auto;
+}
+
+.largeShirts {
+  padding: 0; /* No padding for large image */
+  background-color: #fff;
+  border: 1px solid #e2ecff;
+  text-align: center;
+  border-radius: 0 70px 70px 0;
+  margin-left: 0; /* No margin for large image */
+}
+
+.largeShirts img {
+  max-height: 540px;
+  display: block;
+  margin: 0 auto;
+}
+
+.small--shirts {
+  padding: 100px 20px 60px;
+}
+
+/* Add borders back */
+.Shirts {
+  border: 1px solid #e2ecff;
+}
+
+.largeShirts {
+  border: 1px solid #e2ecff;
+}
